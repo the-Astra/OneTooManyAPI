@@ -1,0 +1,840 @@
+return {
+    descriptions = {
+        Planet = {
+            c_mxms_cancri = { -- 系外行星（官方）
+                name = '巨蟹座55e',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}等級 lvl.#1#{S:0.8}){} 升級",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} 倍率 和",
+                    "{C:chips}+#4#{} 籌碼",
+                },
+            },
+            c_mxms_corot = {
+                name = 'CoRoT-7b',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}等級 lvl.#1#{S:0.8}){} 升級",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} 倍率 和",
+                    "{C:chips}+#4#{} 籌碼",
+                },
+            },
+            c_mxms_gliese = {
+                name = '格利澤 581c',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}等級 lvl.#1#{S:0.8}){} 升級",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} 倍率 和",
+                    "{C:chips}+#4#{} 籌碼",
+                },
+            },
+            c_mxms_kepler = {
+                name = '克卜勒-10c',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}等級 lvl.#1#{S:0.8}){} 升級",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} 倍率 和",
+                    "{C:chips}+#4#{} 籌碼",
+                },
+            },
+            c_mxms_microscopii = {
+                name = '顯微鏡座AU b',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}等級 lvl.#1#{S:0.8}){} 升級",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} 倍率 和",
+                    "{C:chips}+#4#{} 籌碼",
+                },
+            },
+            c_mxms_pegasi = {
+                name = '飛馬座51b',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}等級 lvl.#1#{S:0.8}){} 升級",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} 倍率 和",
+                    "{C:chips}+#4#{} 籌碼",
+                },
+            },
+            c_mxms_phobetor = {
+                name = '夢星',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}等級 lvl.#1#{S:0.8}){} 升級",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} 倍率 和",
+                    "{C:chips}+#4#{} 籌碼",
+                },
+            },
+            c_mxms_poltergeist = {
+                name = '騷幽星',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}等級 lvl.#1#{S:0.8}){} 升級",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} 倍率 和",
+                    "{C:chips}+#4#{} 籌碼",
+                },
+            },
+            c_mxms_proxima = {
+                name = '比鄰星b',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}等級 lvl.#1#{S:0.8}){} 升級",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} 倍率 和",
+                    "{C:chips}+#4#{} 籌碼",
+                },
+            },
+            c_mxms_trappist = {
+                name = 'TRAPPIST-1e',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}等級 lvl.#1#{S:0.8}){} 升級",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} 倍率 和",
+                    "{C:chips}+#4#{} 籌碼",
+                },
+            },
+            c_mxms_wasp = {
+                name = 'WASP-12b',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}等級 lvl.#1#{S:0.8}){} 升級",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} 倍率 和",
+                    "{C:chips}+#4#{} 籌碼",
+                },
+            c_mxms_varuna = { -- 海王星外天體及小行星（六卡牌型）
+                name = '伐樓拿',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}等級 lvl.#1#{S:0.8}){} 升級",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} 倍率 和",
+                    "{C:chips}+#4#{} 籌碼",
+                },
+            c_mxms_orcus = {
+                name = '亡神星',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}等級 lvl.#1#{S:0.8}){} 升級",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} 倍率 和",
+                    "{C:chips}+#4#{} 籌碼",
+                },
+            c_mxms_gonggong = {
+                name = '共工星',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}等級 lvl.#1#{S:0.8}){} 升級",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} 倍率 和",
+                    "{C:chips}+#4#{} 籌碼",
+                },
+            c_mxms_tyche = {
+                name = '堤喀星',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}等級 lvl.#1#{S:0.8}){} 升級",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} 倍率 和",
+                    "{C:chips}+#4#{} 籌碼",
+                },
+            c_mxms_chiron = {
+                name = '凱龍星',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}等級 lvl.#1#{S:0.8}){} 升級",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} 倍率 和",
+                    "{C:chips}+#4#{} 籌碼",
+                },
+            c_mxms_vesta = {
+                name = '灶神星',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}等級 lvl.#1#{S:0.8}){} 升級",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} 倍率 和",
+                    "{C:chips}+#4#{} 籌碼",
+                },
+            c_mxms_pallas = {
+                name = '智神星',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}等級 lvl.#1#{S:0.8}){} 升級",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} 倍率 和",
+                    "{C:chips}+#4#{} 籌碼",
+                },
+            c_mxms_juno = {
+                name = '婚神星',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}等級 lvl.#1#{S:0.8}){} 升級",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} 倍率 和",
+                    "{C:chips}+#4#{} 籌碼",
+                },
+            c_mxms_hygiea = {
+                name = '健神星',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}等級 lvl.#1#{S:0.8}){} 升級",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} 倍率 和",
+                    "{C:chips}+#4#{} 籌碼",
+                },
+            c_mxms_salacia = {
+                name = '潫神星',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}等級 lvl.#1#{S:0.8}){} 升級",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} 倍率 和",
+                    "{C:chips}+#4#{} 籌碼",
+                },
+            c_mxms_chariklo = {
+                name = '女凱龍星',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}等級 lvl.#1#{S:0.8}){} 升級",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} 倍率 和",
+                    "{C:chips}+#4#{} 籌碼",
+                },
+            c_mxms_ganymede = { -- 衛星 （五卡牌型變種）
+                name = '木衛三',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}等級 lvl.#1#{S:0.8}){} 升級",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} 倍率 和",
+                    "{C:chips}+#4#{} 籌碼",
+                },
+            c_mxms_callisto = {
+                name = '木衛四',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}等級 lvl.#1#{S:0.8}){} 升級",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} 倍率 和",
+                    "{C:chips}+#4#{} 籌碼",
+                },
+            c_mxms_io = {
+                name = '木衛一',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}等級 lvl.#1#{S:0.8}){} 升級",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} 倍率 和",
+                    "{C:chips}+#4#{} 籌碼",
+                },
+            c_mxms_europa = {
+                name = '木衛二',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}等級 lvl.#1#{S:0.8}){} 升級",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} 倍率 和",
+                    "{C:chips}+#4#{} 籌碼",
+                },
+            c_mxms_mimas = {
+                name = '土衛一',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}等級 lvl.#1#{S:0.8}){} 升級",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} 倍率 和",
+                    "{C:chips}+#4#{} 籌碼",
+                },
+            c_mxms_enceladus = {
+                name = '土衛二',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}等級 lvl.#1#{S:0.8}){} 升級",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} 倍率 和",
+                    "{C:chips}+#4#{} 籌碼",
+                },
+            c_mxms_tethys = {
+                name = '土衛三',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}等級 lvl.#1#{S:0.8}){} 升級",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} 倍率 和",
+                    "{C:chips}+#4#{} 籌碼",
+                },
+            c_mxms_dione = {
+                name = '土衛四',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}等級 lvl.#1#{S:0.8}){} 升級",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} 倍率 和",
+                    "{C:chips}+#4#{} 籌碼",
+                },
+            c_mxms_rhea = {
+                name = '土衛五',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}等級 lvl.#1#{S:0.8}){} 升級",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} 倍率 和",
+                    "{C:chips}+#4#{} 籌碼",
+                },
+            c_mxms_titan = {
+                name = '土衛六',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}等級 lvl.#1#{S:0.8}){} 升級",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} 倍率 和",
+                    "{C:chips}+#4#{} 籌碼",
+                },
+            c_mxms_hyperion = {
+                name = '土衛七',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}等級 lvl.#1#{S:0.8}){} 升級",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} 倍率 和",
+                    "{C:chips}+#4#{} 籌碼",
+                },
+            c_mxms_iapetus = {
+                name = '土衛八',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}等級 lvl.#1#{S:0.8}){} 升級",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} 倍率 和",
+                    "{C:chips}+#4#{} 籌碼",
+                },
+            c_mxms_phobos = {
+                name = '火衛一',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}等級 lvl.#1#{S:0.8}){} 升級",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} 倍率 和",
+                    "{C:chips}+#4#{} 籌碼",
+                },
+            c_mxms_deimos = {
+                name = '火衞二',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}等級 lvl.#1#{S:0.8}){} 升級",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} 倍率 和",
+                    "{C:chips}+#4#{} 籌碼",
+                },
+            c_mxms_triton = {
+                name = '海衛一',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}等級 lvl.#1#{S:0.8}){} 升級",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} 倍率 和",
+                    "{C:chips}+#4#{} 籌碼",
+                },
+            c_mxms_nereid = {
+                name = '海衛二',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}等級 lvl.#1#{S:0.8}){} 升級",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} 倍率 和",
+                    "{C:chips}+#4#{} 籌碼",
+                },
+            c_mxms_naiad = {
+                name = '海衛三',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}等級 lvl.#1#{S:0.8}){} 升級",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} 倍率 和",
+                    "{C:chips}+#4#{} 籌碼",
+                },
+            c_mxms_proteus = {
+                name = '海衛八',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}等級 lvl.#1#{S:0.8}){} 升級",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} 倍率 和",
+                    "{C:chips}+#4#{} 籌碼",
+                },
+            c_mxms_pholus = { -- 半人馬小天體（六卡牌型變種）
+                name = '人龍星',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}等級 lvl.#1#{S:0.8}){} 升級",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} 倍率 和",
+                    "{C:chips}+#4#{} 籌碼",
+                },
+            c_mxms_bienor = {
+                name = '小行星54598',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}等級 lvl.#1#{S:0.8}){} 升級",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} 倍率 和",
+                    "{C:chips}+#4#{} 籌碼",
+                },
+            c_mxms_nessus = {
+                name = '毒龍星',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}等級 lvl.#1#{S:0.8}){} 升級",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} 倍率 和",
+                    "{C:chips}+#4#{} 籌碼",
+                },
+            c_mxms_kaepa = {
+                name = '小行星514107',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}等級 lvl.#1#{S:0.8}){} 升級",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} 倍率 和",
+                    "{C:chips}+#4#{} 籌碼",
+                },
+            c_mxms_hylonome = {
+                name = '小行星10370',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}等級 lvl.#1#{S:0.8}){} 升級",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} 倍率 和",
+                    "{C:chips}+#4#{} 籌碼",
+                },
+            c_mxms_hidalgo = {
+                name = '小行星944',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}等級 lvl.#1#{S:0.8}){} 升級",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} 倍率 和",
+                    "{C:chips}+#4#{} 籌碼",
+                },
+            c_mxms_asbolus = {
+                name = '飛龍星',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}等級 lvl.#1#{S:0.8}){} 升級",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} 倍率 和",
+                    "{C:chips}+#4#{} 籌碼",
+                },
+            c_mxms_taowu = {
+                name = '檮杌星',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}等級 lvl.#1#{S:0.8}){} 升級",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} 倍率 和",
+                    "{C:chips}+#4#{} 籌碼",
+                },
+            c_mxms_vulcan = {
+                name = '祝融星',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}等級 lvl.#1#{S:0.8}){} 升級",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} 倍率 和",
+                    "{C:chips}+#4#{} 籌碼",
+                },
+            c_mxms_actaea = {
+                name = '潫衛一',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}等級 lvl.#1#{S:0.8}){} 升級",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} 倍率 和",
+                    "{C:chips}+#4#{} 籌碼",
+                },
+            c_mxms_albion = {
+                name = '小行星15760',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}等級 lvl.#1#{S:0.8}){} 升級",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} 倍率 和",
+                    "{C:chips}+#4#{} 籌碼",
+                },
+            c_mxms_euphrosyne = {
+                name = '麗神星',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}等級 lvl.#1#{S:0.8}){} 升級",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} 倍率 和",
+                    "{C:chips}+#4#{} 籌碼",
+                },
+            c_mxms_quaoar = { -- 額外天體（光譜牌型）
+                name = '創神星',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}等級 lvl.#1#{S:0.8}){} 升級",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} 倍率 和",
+                    "{C:chips}+#4#{} 籌碼",
+                },
+            c_mxms_haumea = {
+                name = '妊神星',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}等級 lvl.#1#{S:0.8}){} 升級",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} 倍率 和",
+                    "{C:chips}+#4#{} 籌碼",
+                },
+            c_mxms_sedna = {
+                name = '賽德娜',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}等級 lvl.#1#{S:0.8}){} 升級",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} 倍率 和",
+                    "{C:chips}+#4#{} 籌碼",
+                },
+            c_mxms_makemake = {
+                name = '鳥神星',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}等級 lvl.#1#{S:0.8}){} 升級",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} 倍率 和",
+                    "{C:chips}+#4#{} 籌碼",
+                },
+            c_mxms_hiiaka = {
+                name = '妊衛一',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}等級 lvl.#1#{S:0.8}){} 升級",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} 倍率 和",
+                    "{C:chips}+#4#{} 籌碼",
+                },
+            c_mxms_1996to66 = {
+                name = '小行星19308',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}等級 lvl.#1#{S:0.8}){} 升級",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} 倍率 和",
+                    "{C:chips}+#4#{} 籌碼",
+                },
+            c_mxms_namaka = {
+                name = '妊衛二',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}等級 lvl.#1#{S:0.8}){} 升級",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} 倍率 和",
+                    "{C:chips}+#4#{} 籌碼",
+                },
+            c_mxms_2002tx300 = {
+                name = '小行星55636',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}等級 lvl.#1#{S:0.8}){} 升級",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} 倍率 和",
+                    "{C:chips}+#4#{} 籌碼",
+                },
+            c_mxms_hektor = {
+                name = '赫克特',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}等級 lvl.#1#{S:0.8}){} 升級",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} 倍率 和",
+                    "{C:chips}+#4#{} 籌碼",
+                },
+            c_mxms_eureka = {
+                name = '尤里卡星',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}等級 lvl.#1#{S:0.8}){} 升級",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} 倍率 和",
+                    "{C:chips}+#4#{} 籌碼",
+                },
+            c_mxms_atira = {
+                name = '阿提拉',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}等級 lvl.#1#{S:0.8}){} 升級",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} 倍率 和",
+                    "{C:chips}+#4#{} 籌碼",
+                },
+            c_mxms_lempo = {
+                name = '倫波星',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}等級 lvl.#1#{S:0.8}){} 升級",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} 倍率 和",
+                    "{C:chips}+#4#{} 籌碼",
+                },
+            c_mxms_arawn = {
+                name = '酆神星',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}等級 lvl.#1#{S:0.8}){} 升級",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} 倍率 和",
+                    "{C:chips}+#4#{} 籌碼",
+                },
+            c_mxms_otrera = {
+                name = '小行星385571',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}等級 lvl.#1#{S:0.8}){} 升級",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} 倍率 和",
+                    "{C:chips}+#4#{} 籌碼",
+                },
+            c_mxms_clete = {
+                name = '小行星385695',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}等級 lvl.#1#{S:0.8}){} 升級",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} 倍率 和",
+                    "{C:chips}+#4#{} 籌碼",
+                },
+            c_mxms_2001qr322 = {
+                name = '小行星612243',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}等級 lvl.#1#{S:0.8}){} 升級",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} 倍率 和",
+                    "{C:chips}+#4#{} 籌碼",
+                },
+            c_mxms_2004kv18 = {
+                name = '2004KV18',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}等級 lvl.#1#{S:0.8}){} 升級",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} 倍率 和",
+                    "{C:chips}+#4#{} 籌碼",
+                },
+            c_mxms_2010en65 = {
+                name = '小行星316179',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}等級 lvl.#1#{S:0.8}){} 升級",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} 倍率 和",
+                    "{C:chips}+#4#{} 籌碼",
+                },
+            c_mxms_huya = {
+                name = '雨神星',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}等級 lvl.#1#{S:0.8}){} 升級",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} 倍率 和",
+                    "{C:chips}+#4#{} 籌碼",
+                },
+            c_mxms_lick = {
+                name = '小行星1951',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}等級 lvl.#1#{S:0.8}){} 升級",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} 倍率 和",
+                    "{C:chips}+#4#{} 籌碼",
+                },
+            }
+        },
+    },
+    misc = {
+        dictionary = {
+            k_mxms_exoplanet = '太陽系外行星'
+            k_mxms_centaur = '半人馬小行星'
+            k_asteroid = '小行星'
+            k_planet_q = '行星?'
+            k_mxms_satellite = '衛星'
+            k_mxms_retrograde = '逆行天體'
+            k_mamx_kbo = '柯伊柏帶天體'
+            k_mxms_trojan = '特洛伊小行星'
+            k_mxms_neo = '近地小行星'
+            k_mxms_q_satellite = '準衛星'
+            k_mxms_mars_crosser = '火星軌道穿越小行星'
+        },
+        poker_hands = {
+            ["mxms_broadway"] = "百老匯街" -- 五卡牌型變種
+            ["mxms_midhand"] = "中型順子"
+            ["mxms_wheel"] = "車輪"
+            ["mxms_wp_straight"] = "扭曲順子"
+            ["royal_f"] = "皇家同花順"
+            ["mxms_midhandflush"] = "中型同花順"
+            ["mxms_steel_wheel"] = "鋼車輪"
+            ["mxms_wp_straight_f"] = "扭曲同花順"
+            ["mxms_horsemen"] = "四大天王"
+            ["mxms_square"] = "平方數力量"
+            ["mxms_6oak"] = "六條", -- 六卡牌型
+            ["mxms_double_triple"] = "兩組三條",
+            ["mxms_f_6oak"] = "同花六條",
+            ["mxms_f_double_triple"] = "同花兩組三條",
+            ["mxms_f_party"] = "單色豪宅",
+            ["mxms_f_three_pair"] = "同花三對",
+            ["mxms_house_party"] = "豪宅",
+            ["mxms_s_flush"] = "大花",
+            ["mxms_s_straight_f"] = "長同花順",
+            ["mxms_s_straight"] = "巨蟒",
+            ["mxms_three_pair"] = "三對",
+            ["mxms_catwalk"] = "舞台" -- 六卡牌型變種
+            ["mxms_indispensable"] = "不可或缺"
+            ["mxms_ship"] = "船"
+            ["mxms_wp_s_straight"] = "扭曲巨蟒"
+            ["mxms_super_royal"] = "豪華皇家同花順"
+            ["mxms_indispensable_f"] = "同花不可或缺"
+            ["mxms_yacht"] = "快艇"
+            ["mxms_wp_s_straight_f"] = "扭曲長同花順"
+            ["mxms_devils_deal"] = "魔鬼之交"
+            ["mxms_angels_horns"] = "天使的號角"
+            ["mxms_staircase"] = "樓梯牌"
+            ["mxms_waterfall"] = "瀑布"
+            ["spectrum"] = "光譜" -- 光譜牌型
+            ["straight_sp"] = "光譜順"
+            ["sp_house"] = "光譜葫蘆"
+            ["sp_5oak"] = "光譜五條"
+            ["mxms_rainbow_road"] = "彩虹之路"
+            ["mxms_midhandsp"] = "中型光譜順"
+            ["mxms_colour_wheel"] = "色環"
+            ["mxms_wp_straight_sp"] = "扭曲光譜順"
+            ["mxms_sp_6oak"] = "光譜六條",
+            ["mxms_sp_double_triple"] = "光譜兩組三條",
+            ["mxms_sp_party"] = "彩色豪宅",
+            ["mxms_sp_three_pair"] = "光譜三對",
+            ["mxms_s_spectrum"] = "超級光譜",
+            ["mxms_s_straight_sp"] = "長光譜順",
+            ["mxms_glacier"] = "冰河",
+            ["mxms_indispensable_sp"] = "光譜不可或缺",
+            ["mxms_submarine"] = "潛艇",
+            ["mxms_wp_s_straight_sp"] = "扭曲長光譜順"
+            ["mxms_heaven_gateway"] = "天堂之門",
+            ["mxms_hexachrome"] = "六色",
+            
+        },
+        poker_hand_descriptions = {
+            ["mxms_broadway"] = { -- 五卡牌型變種
+                "由A至10組成的順子"
+            },
+            ["mxms_midhand"] = {
+                "由6至10或5至9組成的順子"
+            },
+            ["mxms_wheel"] = {
+                "由A至5組成的順子"
+            },
+            ["mxms_wp_straight"] = {
+                "A同時以最高和最低形式出現的順子"
+            },
+            ["royal_f"] = {
+                "由A至10組成的同花順"
+            },
+            ["mxms_midhandflush"] = {
+                "由6至10或5至9組成的同花順"
+            },
+            ["mxms_steel_wheel"] = {
+                "由A至5組成的同花順"
+            },
+            ["mxms_wp_straight_f"] = {
+                "A同時以最高和最低形式出現的同花順"
+            },
+            ["mxms_horsemen"] = {
+                "四張相同的面頭牌（即J、Q或K）"
+            },
+            ["mxms_square"] = {
+                "四張4或四張9"
+            },
+            ["mxms_6oak"] = { -- 六卡牌型
+                "六張相同數字的卡"
+            },
+            ["mxms_double_triple"] = {
+                "兩組三張相同數字的卡"
+            },
+            ["mxms_f_6oak"] = {
+                "六張相同數字和花色的卡"
+            },
+            ["mxms_f_double_triple"] = {
+                "兩組三張相同數字的卡，",
+                "而且所有卡牌相同花色"
+            },
+            ["mxms_f_party"] = {
+                "一個四條和一對，當中",
+                "所有卡牌都有相同花色"
+            },
+            ["mxms_f_three_pair"] = {
+                "三組不同數字的對子，",
+                "而且所有卡牌相同花色"
+            },
+            ["mxms_house_party"] = {
+                "一個四條和一對"
+            },
+            ["mxms_s_flush"] = {
+                "六張相同花色的卡"
+            },
+            ["mxms_s_straight_f"] = {
+                "六張連續數字的卡，",
+                "而且所有卡牌相同花色"
+            },
+            ["mxms_s_straight"] = {
+                "六張連續數字的卡"
+            },
+            ["mxms_three_pair"] = {
+                "三組不同數字的對子"
+            },
+            ["mxms_catwalk"] = { -- 六卡牌型變種
+                "由A至9組成的巨蟒"
+            },
+            ["mxms_indispensable"] = {
+                "由5至10組成的巨蟒"
+            },
+            ["mxms_ship"] = {
+                "由A至6組成的巨蟒"
+            },
+            ["mxms_wp_s_straight"] = {
+                "A同時以最高和最低形式出現的巨蟒"
+            },
+            ["mxms_super_royal"] = {
+                "由A至9組成的長同花順"
+            },
+            ["mxms_indispensable_f"] = {
+                "由5至10組成的長同花順"
+            },
+            ["mxms_yacht"] = {
+                "由A至6組成的長同花順"
+            },
+            ["mxms_wp_s_straight_f"] = {
+                "A同時以最高和最低形式出現的長同花順"
+            },
+            ["mxms_devils_deal"] = {
+                "六張6號牌"
+            },
+            ["mxms_angels_horns"] = {
+                "六張相同花色的6號牌"
+            },
+            ["mxms_staircase"] = {
+                "三組連續數字的對子"
+            },
+            ["mxms_waterfall"] = {
+                "三組連續數字並相同花色的對子"
+            },
+            ["spectrum"] = { -- 光譜牌型
+                "五張不同花色的牌"
+            },
+            ["straight_sp"] = {
+                "五張連續數字的卡，",
+                "而且所有卡牌不同花色"
+            },
+            ["sp_house"] = {
+                "一組三條和一對，",
+                "而且所有卡牌不同花色"
+            },
+            ["sp_5oak"] = {
+                "五張相同數字但不同花色的卡"
+            },
+            ["mxms_rainbow_road"] = {
+                "由A至10組成的光譜順"
+            },
+            ["mxms_midhandsp"] = {
+                "由6至10或5至9組成的光譜順"
+            },
+            ["mxms_colour_wheel"] = {
+                "由A至5組成的光譜順"
+            },
+            ["mxms_wp_straight_sp"] = {
+                "A同時以最高和最低形式出現的光譜順"
+            },
+            ["mxms_s_spectrum"] = {
+                "六張不同花色的牌"
+            },
+            ["mxms_sp_three_pair"] = {
+                "三組不同數字的對子，",
+                "而且所有卡牌不同花色"
+            },
+            ["mxms_sp_double_triple"] = {
+                "兩組三張相同數字的卡，",
+                "而且所有卡牌不同花色"
+            },
+            ["mxms_sp_party"] = {
+                "一個四條和一對，當中",
+                "所有卡牌都有不同花色"
+            },
+            ["mxms_sp_6oak"] = {
+                "六張相同數字但不同花色的卡"
+            },
+            ["mxms_s_straight_sp"] = {
+                "六張連續數字的卡，",
+                "而且所有卡牌不同花色"
+            },
+            ["mxms_glacier"] = {
+                "由A至9組成的長光譜順"
+            },
+            ["mxms_indispensable_sp"] = {
+                "由5至10組成的長光譜順"
+            },
+            ["mxms_submarine"] = {
+                "由A至6組成的長光譜順"
+            },
+            ["mxms_wp_s_straight_sp"] = {
+                "A同時以最高和最低形式出現的長光譜順"
+            },
+            ["mxms_hexachrome"] = {
+                "六張不同花色的6號牌"
+            },
+            ["mxms_heaven_gateway"] = {
+                "三組連續數字但不同花色的對子"
+            },
+        },
+        v_dictionary = {
+            otm_art = { '插圖: #1#' },
+            otm_code = { '編程: #1#' },
+            otm_idea = { '靈感: #1#' }
+        }
+    }
+}

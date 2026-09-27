@@ -1,8 +1,8 @@
 return {
     descriptions = {
         Planet = {
-            c_mxms_cancri = {
-                name = 'Cancri',
+            c_mxms_cancri = { -- Exoplanets (official)
+                name = '55 Cancri e',
                 text = {
                     "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
                     "{C:attention}#2#",
@@ -11,7 +11,7 @@ return {
                 },
             },
             c_mxms_corot = {
-                name = 'Corot',
+                name = 'CoRoT-7b',
                 text = {
                     "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
                     "{C:attention}#2#",
@@ -20,7 +20,7 @@ return {
                 },
             },
             c_mxms_gliese = {
-                name = 'Gliese',
+                name = 'Gliese 581c',
                 text = {
                     "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
                     "{C:attention}#2#",
@@ -29,7 +29,7 @@ return {
                 },
             },
             c_mxms_kepler = {
-                name = 'Kepler',
+                name = 'Kepler-10c',
                 text = {
                     "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
                     "{C:attention}#2#",
@@ -38,7 +38,7 @@ return {
                 },
             },
             c_mxms_microscopii = {
-                name = 'Microscopii',
+                name = 'AU Microscopii b',
                 text = {
                     "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
                     "{C:attention}#2#",
@@ -47,7 +47,7 @@ return {
                 },
             },
             c_mxms_pegasi = {
-                name = 'Pegasi',
+                name = '51 Pegasi b',
                 text = {
                     "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
                     "{C:attention}#2#",
@@ -74,7 +74,7 @@ return {
                 },
             },
             c_mxms_proxima = {
-                name = 'Proxima Centauri',
+                name = 'Proxima Centauri b',
                 text = {
                     "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
                     "{C:attention}#2#",
@@ -83,7 +83,7 @@ return {
                 },
             },
             c_mxms_trappist = {
-                name = 'Trappist',
+                name = 'TRAPPIST-1e',
                 text = {
                     "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
                     "{C:attention}#2#",
@@ -92,7 +92,495 @@ return {
                 },
             },
             c_mxms_wasp = {
-                name = 'Wasp',
+                name = 'WASP-12b',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} Mult and",
+                    "{C:chips}+#4#{} chips",
+                },
+            c_mxms_varuna = { -- TNOs and asteroids for six card hands
+                name = 'Varuna',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} Mult and",
+                    "{C:chips}+#4#{} chips",
+                },
+            c_mxms_orcus = {
+                name = 'Orcus',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} Mult and",
+                    "{C:chips}+#4#{} chips",
+                },
+            c_mxms_gonggong = {
+                name = 'Gonggong',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} Mult and",
+                    "{C:chips}+#4#{} chips",
+                },
+            c_mxms_tyche = {
+                name = 'Tyche',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} Mult and",
+                    "{C:chips}+#4#{} chips",
+                },
+            c_mxms_chiron = {
+                name = 'Chiron',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} Mult and",
+                    "{C:chips}+#4#{} chips",
+                },
+            c_mxms_vesta = {
+                name = 'Vesta',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} Mult and",
+                    "{C:chips}+#4#{} chips",
+                },
+            c_mxms_pallas = {
+                name = 'Pallas',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} Mult and",
+                    "{C:chips}+#4#{} chips",
+                },
+            c_mxms_juno = {
+                name = 'Juno',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} Mult and",
+                    "{C:chips}+#4#{} chips",
+                },
+            c_mxms_hygiea = {
+                name = 'Hygiea',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} Mult and",
+                    "{C:chips}+#4#{} chips",
+                },
+            c_mxms_salacia = {
+                name = 'Salacia',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} Mult and",
+                    "{C:chips}+#4#{} chips",
+                },
+            c_mxms_chariklo = {
+                name = 'Chariklo',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} Mult and",
+                    "{C:chips}+#4#{} chips",
+                },
+            c_mxms_ganymede = { -- Satellites for variants
+                name = 'Ganymede',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} Mult and",
+                    "{C:chips}+#4#{} chips",
+                },
+            c_mxms_callisto = {
+                name = 'Callisto',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} Mult and",
+                    "{C:chips}+#4#{} chips",
+                },
+            c_mxms_io = {
+                name = 'Io',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} Mult and",
+                    "{C:chips}+#4#{} chips",
+                },
+            c_mxms_europa = {
+                name = 'Europa',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} Mult and",
+                    "{C:chips}+#4#{} chips",
+                },
+            c_mxms_mimas = {
+                name = 'Mimas',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} Mult and",
+                    "{C:chips}+#4#{} chips",
+                },
+            c_mxms_enceladus = {
+                name = 'Enceladus',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} Mult and",
+                    "{C:chips}+#4#{} chips",
+                },
+            c_mxms_tethys = {
+                name = 'Tethys',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} Mult and",
+                    "{C:chips}+#4#{} chips",
+                },
+            c_mxms_dione = {
+                name = 'Dione',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} Mult and",
+                    "{C:chips}+#4#{} chips",
+                },
+            c_mxms_rhea = {
+                name = 'Rhea',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} Mult and",
+                    "{C:chips}+#4#{} chips",
+                },
+            c_mxms_titan = {
+                name = 'Titan',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} Mult and",
+                    "{C:chips}+#4#{} chips",
+                },
+            c_mxms_hyperion = {
+                name = 'Hyperion',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} Mult and",
+                    "{C:chips}+#4#{} chips",
+                },
+            c_mxms_iapetus = {
+                name = 'Iapetus',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} Mult and",
+                    "{C:chips}+#4#{} chips",
+                },
+            c_mxms_phobos = {
+                name = 'Phobos',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} Mult and",
+                    "{C:chips}+#4#{} chips",
+                },
+            c_mxms_deimos = {
+                name = 'Deimos',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} Mult and",
+                    "{C:chips}+#4#{} chips",
+                },
+            c_mxms_triton = {
+                name = 'Triton',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} Mult and",
+                    "{C:chips}+#4#{} chips",
+                },
+            c_mxms_nereid = {
+                name = 'Nereid',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} Mult and",
+                    "{C:chips}+#4#{} chips",
+                },
+            c_mxms_naiad = {
+                name = 'Naiad',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} Mult and",
+                    "{C:chips}+#4#{} chips",
+                },
+            c_mxms_proteus = {
+                name = 'Proteus',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} Mult and",
+                    "{C:chips}+#4#{} chips",
+                },
+            c_mxms_pholus = { -- Centaurs for six card variants
+                name = 'Pholus',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} Mult and",
+                    "{C:chips}+#4#{} chips",
+                },
+            c_mxms_bienor = {
+                name = 'Bienor',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} Mult and",
+                    "{C:chips}+#4#{} chips",
+                },
+            c_mxms_nessus = {
+                name = 'Nessus',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} Mult and",
+                    "{C:chips}+#4#{} chips",
+                },
+            c_mxms_kaepa = {
+                name = 'Kaʻepaokaʻāwela',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} Mult and",
+                    "{C:chips}+#4#{} chips",
+                },
+            c_mxms_hylonome = {
+                name = 'Hylonome',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} Mult and",
+                    "{C:chips}+#4#{} chips",
+                },
+            c_mxms_hidalgo = {
+                name = 'Hidalgo',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} Mult and",
+                    "{C:chips}+#4#{} chips",
+                },
+            c_mxms_asbolus = {
+                name = 'Asbolus',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} Mult and",
+                    "{C:chips}+#4#{} chips",
+                },
+            c_mxms_taowu = {
+                name = 'Taowu',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} Mult and",
+                    "{C:chips}+#4#{} chips",
+                },
+            c_mxms_vulcan = {
+                name = 'Vulcan',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} Mult and",
+                    "{C:chips}+#4#{} chips",
+                },
+            c_mxms_actaea = {
+                name = 'Actaea',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} Mult and",
+                    "{C:chips}+#4#{} chips",
+                },
+            c_mxms_albion = {
+                name = 'Albion',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} Mult and",
+                    "{C:chips}+#4#{} chips",
+                },
+            c_mxms_euphrosyne = {
+                name = 'Euphrosyne',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} Mult and",
+                    "{C:chips}+#4#{} chips",
+                },
+            c_mxms_quaoar = { -- Extra objects for spectrum hands
+                name = 'Quaoar',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} Mult and",
+                    "{C:chips}+#4#{} chips",
+                },
+            c_mxms_haumea = {
+                name = 'Haumea',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} Mult and",
+                    "{C:chips}+#4#{} chips",
+                },
+            c_mxms_sedna = {
+                name = 'Sedna',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} Mult and",
+                    "{C:chips}+#4#{} chips",
+                },
+            c_mxms_makemake = {
+                name = 'Makemake',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} Mult and",
+                    "{C:chips}+#4#{} chips",
+                },
+            c_mxms_hiiaka = {
+                name = 'Hiʻiaka',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} Mult and",
+                    "{C:chips}+#4#{} chips",
+                },
+            c_mxms_1996to66= {
+                name = '1996TO66',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} Mult and",
+                    "{C:chips}+#4#{} chips",
+                },
+            c_mxms_namaka = {
+                name = 'Namaka',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} Mult and",
+                    "{C:chips}+#4#{} chips",
+                },
+            c_mxms_2002tx300 = {
+                name = '2002TX300',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} Mult and",
+                    "{C:chips}+#4#{} chips",
+                },
+            c_mxms_hektor = {
+                name = 'Hektor',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} Mult and",
+                    "{C:chips}+#4#{} chips",
+                },
+            c_mxms_eureka = {
+                name = 'Eureka',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} Mult and",
+                    "{C:chips}+#4#{} chips",
+                },
+            c_mxms_atira = {
+                name = 'Atira',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} Mult and",
+                    "{C:chips}+#4#{} chips",
+                },
+            c_mxms_lempo = {
+                name = 'Lempo',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} Mult and",
+                    "{C:chips}+#4#{} chips",
+                },
+            c_mxms_arawn = {
+                name = 'Arawn',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} Mult and",
+                    "{C:chips}+#4#{} chips",
+                },
+            c_mxms_otrera = {
+                name = 'Otrera',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} Mult and",
+                    "{C:chips}+#4#{} chips",
+                },
+            c_mxms_clete = {
+                name = 'Clete',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} Mult and",
+                    "{C:chips}+#4#{} chips",
+                },
+            c_mxms_2001qr322 = {
+                name = '2001QR322',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} Mult and",
+                    "{C:chips}+#4#{} chips",
+                },
+            c_mxms_2004kv18 = {
+                name = '2004KV18',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} Mult and",
+                    "{C:chips}+#4#{} chips",
+                },
+            c_mxms_2010en65 = {
+                name = '2010EN65',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} Mult and",
+                    "{C:chips}+#4#{} chips",
+                },
+            c_mxms_huya = {
+                name = 'Huya',
+                text = {
+                    "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} Mult and",
+                    "{C:chips}+#4#{} chips",
+                },
+            c_mxms_lick = {
+                name = 'Lick',
                 text = {
                     "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
                     "{C:attention}#2#",
@@ -105,34 +593,119 @@ return {
     misc = {
         dictionary = {
             k_mxms_exoplanet = 'Exoplanet'
+            k_mxms_centaur = 'Centaur'
+            k_asteroid = 'Asteroid'
+            k_planet_q = 'Planet?'
+            k_mxms_satellite = 'Satellite'
+            k_mxms_retrograde = 'Retrograde Object'
+            k_mxms_kbo = 'Kuiper Belt Object'
+            k_mxms_trojan = 'Trojan'
+            k_mxms_neo = 'Near-Earth Object'
+            k_mxms_q_satellite = 'Quasi-Satellite'
+            k_mxms_mars_crosser = 'Mars Crosser'
         },
         poker_hands = {
-            ["mxms_6oak"] = "Six of a Kind",
-            ["mxms_double_triple"] = "Double Triple",
+            ["mxms_broadway"] = "Broadway" -- Five card variants
+            ["mxms_midhand"] = "Mid-Hand"
+            ["mxms_wheel"] = "Wheel"
+            ["mxms_wp_straight"] = "Warped Straight"
+            ["royal_f"] = "Royal Flush"
+            ["mxms_midhandflush"] = "Mid-Handed Flush"
+            ["mxms_steel_wheel"] = "Steel Wheel"
+            ["mxms_wp_straight_f"] = "Warped Straight Flush"
+            ["mxms_horsemen"] = "Horsemen"
+            ["mxms_square"] = "Square Power"
+            ["mxms_6oak"] = "Six of a Kind", -- Six card hands
+            ["mxms_double_triple"] = "Two Trios",
             ["mxms_f_6oak"] = "Flush Six",
-            ["mxms_f_double_triple"] = "Flush Double Triple",
-            ["mxms_f_party"] = "Flush Party",
-            ["mxms_f_three_pair"] = "Flush Three Pair",
-            ["mxms_house_party"] = "House Party",
-            ["mxms_s_flush"] = "Super Flush",
-            ["mxms_s_straight_f"] = "Super Straight Flush",
-            ["mxms_s_straight"] = "Super Straight",
-            ["mxms_three_pair"] = "Three Pair",
-            ["mxms_super_royal"] = 'Super Royal Flush'
+            ["mxms_f_double_triple"] = "Flushed Two Trios",
+            ["mxms_f_party"] = "Monochromatic Mansion",
+            ["mxms_f_three_pair"] = "Flushed Three Pairs",
+            ["mxms_house_party"] = "Mansion",
+            ["mxms_s_flush"] = "Long Flush",
+            ["mxms_s_straight_f"] = "Long Straight Flush",
+            ["mxms_s_straight"] = "Long Straight",
+            ["mxms_three_pair"] = "Three Pairs",
+            ["mxms_catwalk"] = "Catwalk", -- Six card variants
+            ["mxms_indispensable"] = "Indispensable"
+            ["mxms_ship"] = "Ship"
+            ["mxms_wp_s_straight"] = "Long Warped Straight"
+            ["mxms_super_royal"] = "Deluxe Royal"
+            ["mxms_indispensable_f"] = "Indispensable Flush"
+            ["mxms_yacht"] = "Yacht"
+            ["mxms_wp_s_straight_f"] = "Long Warped Straight Flush"
+            ["mxms_devils_deal"] = "Devil's Deal"
+            ["mxms_angels_horns"] = "Angel's Horns"
+            ["mxms_staircase"] = "Staircase"
+            ["mxms_waterfall"] = "Waterfall"
+            ["spectrum"] = "Spectrum" -- Spectrum based hands
+            ["straight_sp"] = "Straigth Spectrum"
+            ["sp_house"] = "Spectrum House"
+            ["sp_5oak"] = "Spectrum Five"
+            ["mxms_rainbow_road"] = "Rainbow Road"
+            ["mxms_midhandsp"] = "Mid-Handed Spectrum"
+            ["mxms_colour_wheel"] = "Colour Wheel"
+            ["mxms_wp_straight_sp"] = "Warped Straight Spectrum"
+            ["mxms_sp_6oak"] = "Spectrum Six",
+            ["mxms_sp_double_triple"] = "Spectral Two Trios",
+            ["mxms_sp_party"] = "Rainbow Mansion",
+            ["mxms_sp_three_pair"] = "Spectral Three Pairs"
+            ["mxms_s_spectrum"] = "Long Spectrum",
+            ["mxms_s_straight_sp"] = "Long Straight Spectrum",
+            ["mxms_glacier"] = "Glacier",
+            ["mxms_indispensable_sp"] = "Indispensable Spectrum",
+            ["mxms_submarine"] = "Submarine",
+            ["mxms_wp_s_straight_sp"] = "Long Warped Straight Spectrum"
+            ["mxms_heaven_gateway"] = "Heaven Gateway",
+            ["mxms_hexachrome"] = "Hexachrome",
         },
         poker_hand_descriptions = {
-            ["mxms_6oak"] = {
+            ["mxms_broadway"] = { -- Five card variants
+                "A five-card straight from ace to ten"
+            },
+            ["mxms_midhand"] = {
+                "A five-card straight from six to",
+                "ten or from five to nine"
+            },
+            ["mxms_wheel"] = {
+                "A five-card straight from ace to five"
+            },
+            ["mxms_wp_straight"] = {
+                "A five-card straight where the",
+                "ace acts as both high and low"
+            },
+            ["royal_f"] = {
+                "A five-card straight flush from ace to ten"
+            },
+            ["mxms_midhandflush"] = {
+                "A five-card straight flush from",
+                "six to ten or from five to nine"
+            },
+            ["mxms_steel_wheel"] = {
+                "A five-card straight flush from ace to five"
+            },
+            ["mxms_wp_straight_f"] = {
+                "A five-card straight flush where",
+                "the ace acts as both high and low"
+            },
+            ["mxms_horsemen"] = {
+                "Four of the same face card"
+            },
+            ["mxms_square"] = {
+                "Four fours or four nines"
+            },
+            ["mxms_6oak"] = { -- Six card hands
                 "6 cards with the same rank"
             },
             ["mxms_double_triple"] = {
-                "Two 3 of a Kinds"
+                "Two instances of Three of a Kind at once"
             },
             ["mxms_f_6oak"] = {
                 "6 cards with the same rank with",
                 "all cards sharing the same suit"
             },
             ["mxms_f_double_triple"] = {
-                "Two 3 of a Kinds with",
+                "Two instances of Three of a Kind with",
                 "all cards sharing the same suit"
             },
             ["mxms_f_party"] = {
@@ -158,6 +731,115 @@ return {
             },
             ["mxms_three_pair"] = {
                 "3 Pairs of cards with different ranks"
+            },
+            ["mxms_catwalk"] = { --Six card variants
+                "A six-card straight from ace to nine"
+            },
+            ["mxms_indispensable"] = {
+                "A six-card straight from five to ten"
+            },
+            ["mxms_ship"] = {
+                "A six-card straight from ace to six"
+            },
+            ["mxms_wp_s_straight"] = {
+                "A six-card straight where the",
+                "ace acts as both high and low"
+            },
+            ["mxms_super_royal"] = {
+                "A six-card straight flush from ace to nine"
+            },
+            ["mxms_indispensable_f"] = {
+                "A six-card straight flush from five to ten"
+            },
+            ["mxms_yacht"] = {
+                "A six-card straight flush from ace to six"
+            },
+            ["mxms_wp_s_straight_f"] = {
+                "A six-card straight flush where",
+                "the ace acts as both high and low"
+            },
+            ["mxms_devils_deal"] = {
+                "A hand containing 6 sixes"
+            },
+            ["mxms_angels_horns"] = {
+                "A hand containing 6 sixes of the same suit"
+            },
+            ["mxms_staircase"] = {
+                "Three pairs with consecutive ranks"
+            },
+            ["mxms_waterfall"] = {
+                "Three pairs with consecutive",
+                "ranks and the same suit"
+            },
+            ["spectrum"] = { -- Spectrum based hands
+                "A hand containing five different suits"
+            },
+            ["straight_sp"] = {
+                "5 cards in a row (consecutive ranks) in different suits"
+            },
+            ["sp_house"] = {
+                "A pair and a three of a kind with",
+                "all cards in different suits"
+            },
+            ["sp_5oak"] = {
+                "Five cards of the same rank but different suits"
+            },
+            ["mxms_rainbow_road"] = {
+                "A five-card straight spectrum from ace to ten"
+            },
+            ["mxms_midhandsp"] = {
+                "A five-card straight spectrum from",
+                "six to ten or from five to nine"
+            },
+            ["mxms_colour_wheel"] = {
+                "A five-card straight spectrum from ace to five"
+            },
+            ["mxms_wp_straight_f"] = {
+                "A five-card straight spectrum where",
+                "the ace acts as both high and low"
+            },
+            ["mxms_s_spectrum"] = {
+                "A hand containing six different suits"
+            },
+            ["mxms_sp_three_pair"] = {
+                "3 Pairs of cards with different ranks with",
+                "all 6 cards having different suits"
+            },
+            ["mxms_sp_double_triple"] = {
+                "Two instances of Three of a Kind with",
+                "all 6 cards having different suits"
+            },
+            ["mxms_sp_party"] = {
+                "A 4 of a kind and a Pair with",
+                "all 6 cards having different suits"
+            },
+            ["mxms_sp_6oak"] = {
+                "6 cards with the same rank with",
+                "all cards having different suits"
+            },
+            ["mxms_s_straight_sp"] = {
+                "6 cards in a row (consecutive ranks) with",
+                "all cards having different suits"
+            },
+            ["mxms_glacier"] = {
+                "A six-card straight spectrum from ace to nine"
+            },
+            ["mxms_indispensable_sp"] = {
+                "A six-card straight spectrum from five to ten"
+            },
+            ["mxms_submarine"] = {
+                "A six-card straight spectrum from ace to six"
+            },
+            ["mxms_wp_s_straight_sp"] = {
+                "A six-card straight spectrum where",
+                "the ace acts as both high and low"
+            },
+            ["mxms_hexachrome"] = {
+                "A hand containing 6 sixes in different suits"
+            },
+            ["mxms_heaven_gateway"] = {
+                "Three pairs with consecutive",
+                "ranks but different suit"
             },
         },
         v_dictionary = {
